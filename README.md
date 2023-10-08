@@ -112,15 +112,15 @@
 
 - [ ] [7 Pipeline Design Patterns for Continuous Delivery](https://www.singlestoneconsulting.com/blog/7-pipeline-design-patterns-for-continuous-delivery)
 - [ ] [CI/CD patterns](https://continuousdelivery.com/implementing/patterns)
-- [ ] [Six Strategies for Application Deployment](https://thenewstack.io/deployment-strategies)
+- [ ] [6个应用部署策略](https://thenewstack.io/deployment-strategies)
 
-## Clouds
+## 公有云
 
 - [ ] [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [ ] [Learning Azure](https://docs.microsoft.com/en-us/learn/azure/)
 - [ ] [Hands-On Training with GCP](https://cloud.google.com/training/badges)
 
-## Programming
+## 编程
 
 ### Python
 
@@ -130,17 +130,17 @@
 
 ### Go (Golang)
 
-- [ ] [A tour of Go](https://tour.golang.org)
-- [ ] [Go by Example](https://gobyexample.com)
-- [ ] [Go Tutorials & Examples](https://gosamples.dev)
+- [ ] [Go教程](https://tour.golang.org)
+- [ ] [Go示例](https://gobyexample.com)
+- [ ] [Go教程和示例](https://gosamples.dev)
 - [ ] [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 - [ ] [Getting up and running with Go](http://www.golangprograms.com)
-- [ ] [Effective Go](https://golang.org/doc/effective_go.html)
-- [ ] [Go Design Patterns](https://github.com/tmrts/go-patterns)
-- [ ] [Go Memory Management](https://povilasv.me/go-memory-management)
-- [ ] [Style Guide](https://google.github.io/styleguide/go/guide)
+- [ ] [Go高效编程](https://golang.org/doc/effective_go.html)
+- [ ] [Go设计模式](https://github.com/tmrts/go-patterns)
+- [ ] [Go内存管理](https://povilasv.me/go-memory-management)
+- [ ] [Go代码规范](https://google.github.io/styleguide/go/guide)
 - [ ] [Style Decisions](https://google.github.io/styleguide/go/decisions)
-- [ ] [Best Practices](https://google.github.io/styleguide/go/best-practices)
+- [ ] [Go最佳实践](https://google.github.io/styleguide/go/best-practices)
 - [ ] [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang)
 
 ### Big O Notation, Algorithms and Data Structures
@@ -154,25 +154,25 @@
 
 - [ ] [SystemsExpert course from AlgoExpert](https://www.algoexpert.io/se/product)
 - [ ] [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)
-- [ ] [The System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [ ] [Crack the System Design Interview](https://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview)
-- [ ] [System design interview for IT companies](https://github.com/checkcheckzz/system-design-interview)
-- [ ] [Web Architecture 101](https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947)
+- [ ] [系统设计入门](https://github.com/donnemartin/system-design-primer)
+- [ ] [突破系统设计面试](https://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview)
+- [ ] [IT公司系统设计面试](https://github.com/checkcheckzz/system-design-interview)
+- [ ] [网站架构 101](https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947)
 - [ ] [What's in a Production Web Application?](https://web.archive.org/web/20210106095747/http://stephenmann.io/post/whats-in-a-production-web-application)
-- [ ] [Distributed systems](http://book.mixu.net/distsys/single-page.html)
-- [ ] [Failover](https://blog.alexewerlof.com/p/failover)
+- [ ] [分布式系统](http://book.mixu.net/distsys/single-page.html)
+- [ ] [故障容错](https://blog.alexewerlof.com/p/failover)
 
 ### 系统设计示例
 
-- [ ] [Designing WhatsApp](http://highscalability.com/blog/2022/1/3/designing-whatsapp.html)
-- [ ] [Designing Uber](http://highscalability.com/blog/2022/1/25/designing-uber.html)
-- [ ] [Designing Tinder](http://highscalability.com/blog/2022/1/17/designing-tinder.html)
-- [ ] [Designing Instagram](http://highscalability.com/blog/2022/1/11/designing-instagram.html)
-- [ ] [Designing Netflix](http://highscalability.com/blog/2021/12/13/designing-netflix.html)
+- [ ] [设计 WhatsApp](http://highscalability.com/blog/2022/1/3/designing-whatsapp.html)
+- [ ] [设计 Uber](http://highscalability.com/blog/2022/1/25/designing-uber.html)
+- [ ] [设计 Tinder](http://highscalability.com/blog/2022/1/17/designing-tinder.html)
+- [ ] [设计 Instagram](http://highscalability.com/blog/2022/1/11/designing-instagram.html)
+- [ ] [设计 Netflix](http://highscalability.com/blog/2021/12/13/designing-netflix.html)
 
 ## 监控
 
-- [ ] [SLOs & You: A Guide To Service Level Objectives](https://www.circonus.com/2018/07/a-guide-to-service-level-objectives)
+- [ ] [SLOs & You: A Guide To服务等级目标](https://www.circonus.com/2018/07/a-guide-to-service-level-objectives)
 - [ ] [Setting up Service Monitoring — The Why’s and What’s](https://amitosh.medium.com/the-whys-and-what-s-of-setting-up-service-monitoring-cc1c165ee088)
 - [ ] [How NOT to Measure Latency](https://youtu.be/lJ8ydIuPFeU)
 - [ ] [The four Golden Signals of Kubernetes monitoring](https://sysdig.com/blog/golden-signals-kubernetes)
@@ -198,16 +198,16 @@
 - [ ] [Incident Management vs. Incident Response - What's the Difference?](https://rootly.io/blog/incident-management-vs-incident-response-what-s-the-difference)
 - [ ] [Practical Guide to SRE: Using SLOs to Increase Reliability](https://rootly.io/blog/practical-guide-to-sre-using-slos-to-increase-reliability)
 - [ ] [Practical Guide to SRE: Automating On-Call](https://rootly.io/blog/practical-guide-to-sre-automating-on-call)
-- [ ] [Going from Zero to SRE](https://www.squadcast.com/blog/going-from-zero-to-sre)
+- [ ] [从小白到SRE](https://www.squadcast.com/blog/going-from-zero-to-sre)
 - [ ] [An Incident Command Training Handbook](https://blog.danslimmon.com/2019/06/24/an-incident-command-training-handbook)
 - [ ] [Howie guide to post‑incident investigations](https://www.jeli.io/howie/welcome)
-- [ ] [Rundown of LinkedIn’s SRE practices](https://www.srepath.com/rundown-of-linkedins-sre-practices)
-- [ ] [Rundown of Uber’s SRE practice](https://www.srepath.com/rundown-of-uber-sre-practice)
-- [ ] [SRE in the Real World](https://blog.relyabilit.ie/sre-in-the-real-world)
+- [ ] [LinkedIn’s SRE实践详解](https://www.srepath.com/rundown-of-linkedins-sre-practices)
+- [ ] [Uber’s SRE实践详解](https://www.srepath.com/rundown-of-uber-sre-practice)
+- [ ] [现实世界的SRE](https://blog.relyabilit.ie/sre-in-the-real-world)
 - [ ] [SRE Engagement Models](https://certomodo.substack.com/p/sre-engagement-models)
-- [ ] [SRE Checklist](https://github.com/bregman-arie/sre-checklist)
-- [ ] [Why bother with SLI and SLO?](https://blog.alexewerlof.com/p/why-bother-with-sli-and-slo)
-- [ ] [The System Resiliency Pyramid](https://www.codereliant.io/the-system-resiliency-pyramid)
+- [ ] [SRE检查清单](https://github.com/bregman-arie/sre-checklist)
+- [ ] [为啥要区分SLI和SLO](https://blog.alexewerlof.com/p/why-bother-with-sli-and-slo)
+- [ ] [系统弹性金字塔](https://www.codereliant.io/the-system-resiliency-pyramid)
 
 ## 简历
 
@@ -220,7 +220,7 @@
 - [ ] [如何招聘SRE人才](https://syedali.net/2014/04/01/how-to-hire-talent)
 - [ ] [谷歌SRE招聘流程](https://web.archive.org/web/20220328124724/http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer)
 
-### Interview 问题
+### 面试问题
 
 - [ ] [SRE 面试问题集](https://github.com/michael-kehoe/sre-interview)
 - [ ] [SRE 面试问题](https://syedali.net/engineer-interview-questions)
@@ -231,33 +231,33 @@
 - [ ] [DevOps 路线图: 如何成为 DevOps 工程师 或 SRE](https://roadmap.sh/devops)
 - [ ] [The Must-Know Terraform 面试问题](https://devopsknowledge.hashnode.dev/the-must-know-terraform-interview-questions)
 
-### Blogposts
+### 博客
 
 - [ ] [SRE Interviews in Silicon Valley](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley)
-- [ ] [Preparing the SRE interview](https://blog.balthazar-rouberol.com/preparing-the-sre-interview)
-- [ ] [How to Get Into SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre)
-- [ ] [My Job Interview at Google](https://catonmat.net/my-job-interview-at-google)
-- [ ] [Path to Site Reliability Management](https://danrl.com/srm)
-- [ ] [Becoming a Site Reliability Engineer](https://www.tik.dev/blog/becoming-an-sre)
-- [ ] [How I get a job at Google as SRE](https://fabrizio2210.medium.com/how-i-get-a-job-at-google-as-sre-83d44aef7859)
+- [ ] [SRE面试准备](https://blog.balthazar-rouberol.com/preparing-the-sre-interview)
+- [ ] [如何成为SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre)
+- [ ] [Google面试记录](https://catonmat.net/my-job-interview-at-google)
+- [ ] [成为运维管理者路径](https://danrl.com/srm)
+- [ ] [如何成为SRE](https://www.tik.dev/blog/becoming-an-sre)
+- [ ] [我是如何获得Google SRE offer](https://fabrizio2210.medium.com/how-i-get-a-job-at-google-as-sre-83d44aef7859)
 - [ ] [Become A DevOps Engineer in 2023: [Detailed Guide]](https://devopscube.com/become-devops-engineer)
-- [ ] [How to Get an SRE Role](https://certomodo.substack.com/p/how-to-get-an-sre-role)
+- [ ] [如何获得一份SRE工作](https://certomodo.substack.com/p/how-to-get-an-sre-role)
 
 ## 书籍
 
 ### SRE书籍
 
-- [ ] [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents)
-- [ ] [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents)
+- [ ] [网站可靠性工程](https://sre.google/sre-book/table-of-contents)
+- [ ] [网站可靠性工作手册](https://sre.google/workbook/table-of-contents)
 - [ ] [Seeking SRE](https://books.google.ru/books?id=tmhqDwAAQBAJ)
-- [ ] [Building Secure and Reliable Systems](https://sre.google/books/building-secure-reliable-systems)
-- [ ] [Implementing Service Level Objectives](https://learning.oreilly.com/library/view/implementing-service-level/9781492076803)
+- [ ] [打造安全可靠的系统](https://sre.google/books/building-secure-reliable-systems)
+- [ ] [落地服务等级目标](https://learning.oreilly.com/library/view/implementing-service-level/9781492076803)
 
 ### Linux
 
-- [ ] [Linux Kernel Development (3rd Edition)](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468)
-- [ ] [UNIX and Linux System Administration Handbook (5th Edition)](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554)
-- [ ] [Linux Pocket Guide, 3rd Edition](http://shop.oreilly.com/product/0636920040927.do)
+- [ ] [Linux内核开发 (第三版)](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468)
+- [ ] [UNIX 和 Linux 系统管理员手册 (第5版)](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554)
+- [ ] [Linux 口袋手册, 第三版](http://shop.oreilly.com/product/0636920040927.do)
 
 ### 网络
 
@@ -271,4 +271,4 @@
 ## 课程
 
 - [ ] [Site Reliability Engineering: Measuring and Managing Reliability](https://www.coursera.org/learn/site-reliability-engineering-slos)
-- [ ] [School of SRE](https://linkedin.github.io/school-of-sre)
+- [ ] [Linkedin SRE学校](https://linkedin.github.io/school-of-sre)
