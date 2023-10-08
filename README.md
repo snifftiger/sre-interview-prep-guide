@@ -1,110 +1,110 @@
-# Site Reliability Engineer (SRE) Interview Preparation Guide
+# Site Reliability Engineer (SRE) 面试准备指南
 
-This repository is an attempt to consolidate useful resources for Site Reliability Engineer (SRE) interview preparation.
+该repository旨在整合有用的面试资源。
 
-## Contributing
+## 贡献
 
-Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
-Contributions are always welcome!
+参看 [contribution guidelines](CONTRIBUTING.md) .
+欢迎提交更新!
 
-## Basics
+## 基础知识
 
-- [ ] Simple: [What happens when you type in ‘www.cnn.com’ in your browser?](https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser)
-- [ ] Detailed: [What happens when you type google.com into your browser's address box and press enter?](https://github.com/alex/what-happens-when)
+- [ ] 简单: [当你在浏览器中键入“www.cnn.com”时会发生什么?](https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser)
+- [ ] 详细: [当你在浏览器的地址框中键入google.com并按enter键时会发生什么?](https://github.com/alex/what-happens-when)
 
 ## Linux
 
-- [ ] [What every SRE should know about GNU/Linux shell related internals: file descriptors, pipes, terminals, user sessions, process groups and daemons](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons)
+- [ ] [每个SRE都应该了解GNU/Linux shell相关：文件描述符、管道、终端、用户会话、进程组和守护进程](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons)
 
-### Boot Process
+### 启动过程
 
-- [ ] [An introduction to the Linux boot and startup processes](https://opensource.com/article/17/2/linux-boot-and-startup)
-- [ ] [What happens when we turn on computer?](https://www.cdn.geeksforgeeks.org/what-happens-when-we-turn-on-computer)
-- [ ] [What happens when we turn on computer?](https://leetcode.com/discuss/interview-question/125107/What-happens-when-we-turn-on-computer)
-- [ ] [From Power up to login prompt](http://www.scott-a-s.com/files/linux_boot.pdf)
+- [ ] [Linux引导和启动过程简介](https://opensource.com/article/17/2/linux-boot-and-startup)
+- [ ] [当我们开机时会发生什么?](https://www.cdn.geeksforgeeks.org/what-happens-when-we-turn-on-computer)
+- [ ] [当我们开机时会发生什么?](https://leetcode.com/discuss/interview-question/125107/What-happens-when-we-turn-on-computer)
+- [ ] [从启动到登录提示](http://www.scott-a-s.com/files/linux_boot.pdf)
 
-### Filesystem
+### 文件系统
 
-- [ ] [Understanding Inodes](https://syedali.net/2015/02/08/understanding-inodes)
-- [ ] [Understand UNIX / Linux Inodes Basics with Examples](https://www.thegeekstuff.com/2012/01/linux-inodes)
-- [ ] [Understanding proc filesystem](https://syedali.net/2013/08/20/understanding-proc-filesystem)
-- [ ] [Common Mount Options](https://syedali.net/2015/01/06/common-mount-options)
-- [ ] [Understanding Linux filesystems: ext4 and beyond](https://opensource.com/article/18/4/ext4-filesystem)
+- [ ] [理解Inodes](https://syedali.net/2015/02/08/understanding-inodes)
+- [ ] [通过示例理解 UNIX / Linux Inodes 基础](https://www.thegeekstuff.com/2012/01/linux-inodes)
+- [ ] [理解 proc filesystem](https://syedali.net/2013/08/20/understanding-proc-filesystem)
+- [ ] [常见的挂载选项](https://syedali.net/2015/01/06/common-mount-options)
+- [ ] [理解 Linux 文件系统: ext4](https://opensource.com/article/18/4/ext4-filesystem)
 
-### Kernel
+### 内核
 
-- [ ] [Explain the basics of Linux kernel](http://learnlinuxconcepts.blogspot.com/2014/03/explain-basics-of-linux-kernel.html)
-- [ ] [Kernel Space and User Space](http://learnlinuxconcepts.blogspot.com/2014/02/kernel-space-and-user-space.html)
-- [ ] [Linux Kernel Process Management](http://learnlinuxconcepts.blogspot.com/2014/03/process-management.html)
-- [ ] [Linux Addressing](http://learnlinuxconcepts.blogspot.com/2014/02/linux-addressing.html)
-- [ ] [Linux Kernel Memory Management](http://learnlinuxconcepts.blogspot.com/2014/02/linux-memory-management.html)
-- [ ] [STACK AND HEAP](http://learnlinuxconcepts.blogspot.com/2014/02/stack-and-heap.html)
-- [ ] [Paging and Segmentation](http://learnlinuxconcepts.blogspot.com/2014/02/paging-and-segmentation.html)
-- [ ] [Linux Kernel System Calls](http://learnlinuxconcepts.blogspot.com/2014/02/system-calls.html)
-- [ ] [The Virtual Filesystem](http://learnlinuxconcepts.blogspot.com/2014/10/the-virtual-filesystem.html)
-- [ ] [Concurrency and Race Conditions](http://learnlinuxconcepts.blogspot.com/2014/07/concurrency-and-race-conditions.html)
-- [ ] [Memory Leak](https://stackoverflow.com/questions/312069/the-best-memory-leak-definition)
-- [ ] [What is a kernel Panic?](http://learnlinuxconcepts.blogspot.com/2014/07/what-is-kernel-panic.html)
-- [ ] [Book about the linux kernel](https://0xax.gitbooks.io/linux-insides/content)
+- [ ] [Linux内核基础知识详解](http://learnlinuxconcepts.blogspot.com/2014/03/explain-basics-of-linux-kernel.html)
+- [ ] [内核空间和用户空间](http://learnlinuxconcepts.blogspot.com/2014/02/kernel-space-and-user-space.html)
+- [ ] [Linux内核之进程管理](http://learnlinuxconcepts.blogspot.com/2014/03/process-management.html)
+- [ ] [Linux寻址](http://learnlinuxconcepts.blogspot.com/2014/02/linux-addressing.html)
+- [ ] [Linux内核之内存管理](http://learnlinuxconcepts.blogspot.com/2014/02/linux-memory-management.html)
+- [ ] [栈和堆](http://learnlinuxconcepts.blogspot.com/2014/02/stack-and-heap.html)
+- [ ] [分页和分段](http://learnlinuxconcepts.blogspot.com/2014/02/paging-and-segmentation.html)
+- [ ] [Linux内核之系统调用](http://learnlinuxconcepts.blogspot.com/2014/02/system-calls.html)
+- [ ] [虚拟文件系统](http://learnlinuxconcepts.blogspot.com/2014/10/the-virtual-filesystem.html)
+- [ ] [并发和竞态条件](http://learnlinuxconcepts.blogspot.com/2014/07/concurrency-and-race-conditions.html)
+- [ ] [内存泄露](https://stackoverflow.com/questions/312069/the-best-memory-leak-definition)
+- [ ] [什么是内核错误?](http://learnlinuxconcepts.blogspot.com/2014/07/what-is-kernel-panic.html)
+- [ ] [Linux内核启动](https://0xax.gitbooks.io/linux-insides/content)
 
-### Troubleshooting
+### 故障定位
 
-- [ ] [Linux troubleshooting tools](https://syedali.net/2013/08/20/linux-troubleshooting-tools)
-- [ ] [Linux Performance Analysis in 60,000 Milliseconds](https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
+- [ ] [Linux 故障定位工具](https://syedali.net/2013/08/20/linux-troubleshooting-tools)
+- [ ] [Linux 性能分析in 60,000 Milliseconds](https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
 - [ ] [strace](https://www.dedoimedo.com/computers/strace.html)
 - [ ] [lsof](https://www.dedoimedo.com/computers/lsof.html)
-- [ ] [Linux system debugging](https://www.dedoimedo.com/computers/linux-system-debugging-super.html)
-- [ ] [SaaS where users can test their Linux troubleshooting skills](https://sadservers.com)
+- [ ] [Linux系统debug](https://www.dedoimedo.com/computers/linux-system-debugging-super.html)
+- [ ] [在SaaS上测试用户故障定位能力](https://sadservers.com)
 
-## Networking
+## 网络
 
-- [ ] [The Internet explained from first principles](https://explained-from-first-principles.com/internet)
-- [ ] [Network protocols for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147)
-- [ ] [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking)
-- [ ] [Multi-tier load-balancing with Linux](https://vincent.bernat.ch/en/blog/2018-multi-tier-loadbalancer)
-- [ ] [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
-- [ ] [Load Balancing Algorithms](https://syedali.net/2013/08/22/load-balancing-algorithms)
+- [ ] [从第一性原则解释网络](https://explained-from-first-principles.com/internet)
+- [ ] [编程人员需要了解的网络协议](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147)
+- [ ] [Linux虚拟网络接口介绍](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking)
+- [ ] [Multi-tier Linux负载均衡](https://vincent.bernat.ch/en/blog/2018-multi-tier-loadbalancer)
+- [ ] [现代网络负载均衡和代理介绍](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
+- [ ] [负载均衡算法](https://syedali.net/2013/08/22/load-balancing-algorithms)
 
-## Containers
+## 容器
 
-- [ ] [Introduction to Docker and Containers](http://container.training/intro-selfpaced.yml.html)
+- [ ] [Docker和容器介绍](http://container.training/intro-selfpaced.yml.html)
 - [ ] [Containers Patterns](https://l0rd.github.io/containerspatterns)
 - [ ] [Docker Container Anti Patterns](https://blog.couchbase.com/docker-container-anti-patterns/)
 - [ ] [Anti-Patterns When Building Container Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns)
 
 ## Kubernetes
 
-- [ ] [Deploying and Scaling Microservices with Docker and Kubernetes](http://container.training/kube-selfpaced.yml.html)
-- [ ] [Demystifying the Kubernetes Iceberg](https://asankov.dev/blog/2022/05/15/demystifying-the-kubernetes-iceberg-part-1)
+- [ ] [使用Docker和Kubernetes部署和扩容微服务](http://container.training/kube-selfpaced.yml.html)
+- [ ] [揭开Kubernetes冰山的神秘面纱](https://asankov.dev/blog/2022/05/15/demystifying-the-kubernetes-iceberg-part-1)
 - [ ] [What happens when ... Kubernetes edition!](https://github.com/jamiehannaford/what-happens-when-k8s/blob/master/README.md)
-- [ ] [Kubernetes Production Patterns](https://github.com/gravitational/workshop/blob/master/k8sprod.md)
-- [ ] [Kubernetes production best practices](https://learnk8s.io/production-best-practices)
-- [ ] [A Guide to the Kubernetes Networking Model](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model)
-- [ ] [47 Things To Become a Kubernetes Expert](https://ymmt2005.hatenablog.com/entry/k8s-things)
-- [ ] [Kubernetes Best Practices 101](https://github.com/diegolnasc/kubernetes-best-practices)
-- [ ] [15 Kubernetes Best Practices Every Developer Should Know](https://spacelift.io/blog/kubernetes-best-practices)
-- [ ] [THE KUBERNETES NETWORKING GUIDE](https://www.tkng.io)
-- [ ] [The life of a DNS query in Kubernetes](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes)
+- [ ] [Kubernetes生产模式](https://github.com/gravitational/workshop/blob/master/k8sprod.md)
+- [ ] [Kubernetes生产环境最佳实践](https://learnk8s.io/production-best-practices)
+- [ ] [Kubernetes网络模型指南](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model)
+- [ ] [了解47件事情变成Kubernetes专家](https://ymmt2005.hatenablog.com/entry/k8s-things)
+- [ ] [Kubernetes最佳实践101](https://github.com/diegolnasc/kubernetes-best-practices)
+- [ ] [每个开发人员需要了解的15个Kubernetes最佳实践](https://spacelift.io/blog/kubernetes-best-practices)
+- [ ] [KUBERNETES网络指南](https://www.tkng.io)
+- [ ] [Kubernetes中DNS查询的生命周期](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes)
 
-## Infrastructure as code / Configuration management
+## 基础设施作为代码和配置管理
 
 - [ ] [Terraform](https://learn.hashicorp.com/terraform)
-- [ ] [A Comprehensive Guide to Terraform](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)
+- [ ] [Terraform综合指南](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)
 - [ ] [Ansible](https://github.com/leucos/ansible-tuto)
 - [ ] [Getting Started With Terraform on AWS](https://spacelift.io/blog/terraform-tutorial)
-- [ ] [Google Cloud: Best practices for using Terraform](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
+- [ ] [Google Cloud: Terraform最佳实践](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
 
-## Databases
+## 数据库
 
-- [ ] [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases)
-- [ ] [7 Database Paradigms](https://youtu.be/W2Z7fbCLSTw)
-- [ ] [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
-- [ ] [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
+- [ ] [数据库应知应会](https://architecturenotes.co/things-you-should-know-about-databases)
+- [ ] [7个数据库范式](https://youtu.be/W2Z7fbCLSTw)
+- [ ] [CAP定理](https://en.wikipedia.org/wiki/CAP_theorem)
+- [ ] [数据库设计进化](https://martinfowler.com/articles/evodb.html)
 - [ ] [ACID vs BASE in Databases](https://medium.com/geekculture/acid-vs-base-in-databases-1bcad774da26)
-- [ ] [Understanding Database Sharding](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
-- [ ] [Database Replication](https://galeracluster.com/library/documentation/tech-desc-introduction.html#database-replication)
+- [ ] [理解数据库分片](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
+- [ ] [数据库复制]](https://galeracluster.com/library/documentation/tech-desc-introduction.html#database-replication)
 - [ ] [SQL vs. NoSQL Database: When to Use, How to Choose](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106)
-- [ ] [How do database indexes work?](https://planetscale.com/blog/how-do-database-indexes-work)
+- [ ] [数据库索引如何生效?](https://planetscale.com/blog/how-do-database-indexes-work)
 - [ ] [Redis Explained](https://architecturenotes.co/redis)
 - [ ] [Database Sharding Explained](https://architecturenotes.co/database-sharding-explained)
 
@@ -124,7 +124,7 @@ Contributions are always welcome!
 
 ### Python
 
-- [ ] [Python Basics](https://pythonbasics.org/)
+- [ ] [Python基础](https://pythonbasics.org/)
 - [ ] [Python For Everyone](https://www.py4e.com/)
 - [ ] [Complete Python Tutorial](https://www.scaler.com/topics/python/)
 
@@ -150,7 +150,7 @@ Contributions are always welcome!
 - [ ] [Hacking a Google Interview – Handout 2](http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_2.pdf)
 - [ ] [Hacking a Google Interview – Handout 3](http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_3.pdf)
 
-## System design
+## 系统设计
 
 - [ ] [SystemsExpert course from AlgoExpert](https://www.algoexpert.io/se/product)
 - [ ] [Grokking the System Design Interview](https://www.educative.io/collection/5668639101419520/5649050225344512)
@@ -162,7 +162,7 @@ Contributions are always welcome!
 - [ ] [Distributed systems](http://book.mixu.net/distsys/single-page.html)
 - [ ] [Failover](https://blog.alexewerlof.com/p/failover)
 
-### System design examples
+### 系统设计示例
 
 - [ ] [Designing WhatsApp](http://highscalability.com/blog/2022/1/3/designing-whatsapp.html)
 - [ ] [Designing Uber](http://highscalability.com/blog/2022/1/25/designing-uber.html)
@@ -170,7 +170,7 @@ Contributions are always welcome!
 - [ ] [Designing Instagram](http://highscalability.com/blog/2022/1/11/designing-instagram.html)
 - [ ] [Designing Netflix](http://highscalability.com/blog/2021/12/13/designing-netflix.html)
 
-## Monitoring
+## 监控
 
 - [ ] [SLOs & You: A Guide To Service Level Objectives](https://www.circonus.com/2018/07/a-guide-to-service-level-objectives)
 - [ ] [Setting up Service Monitoring — The Why’s and What’s](https://amitosh.medium.com/the-whys-and-what-s-of-setting-up-service-monitoring-cc1c165ee088)
@@ -209,27 +209,27 @@ Contributions are always welcome!
 - [ ] [Why bother with SLI and SLO?](https://blog.alexewerlof.com/p/why-bother-with-sli-and-slo)
 - [ ] [The System Resiliency Pyramid](https://www.codereliant.io/the-system-resiliency-pyramid)
 
-## Resume
+## 简历
 
-- [ ] [SRE Complete Resume Writing Guide](https://rootly.com/blog/sre-complete-resume-writing-guide)
+- [ ] [SRE 简历优化指南](https://rootly.com/blog/sre-complete-resume-writing-guide)
 
-## Interview
+## 面试
 
-### SRE interview process
+### SRE 面试过程
 
-- [ ] [How to hire talent](https://syedali.net/2014/04/01/how-to-hire-talent)
-- [ ] [Recruitment process for a Google job (SRE, Site Reliability Engineer)](https://web.archive.org/web/20220328124724/http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer)
+- [ ] [如何招聘SRE人才](https://syedali.net/2014/04/01/how-to-hire-talent)
+- [ ] [谷歌SRE招聘流程](https://web.archive.org/web/20220328124724/http://lambda-startup.com/recruitment-process-for-a-google-job-sre-site-reliability-engineer)
 
-### Interview Questions
+### Interview 问题
 
-- [ ] [A collection of questions to practice with for SRE interviews](https://github.com/michael-kehoe/sre-interview)
-- [ ] [SRE Interview Questions](https://syedali.net/engineer-interview-questions)
-- [ ] [Sysadmin Test Questions](https://github.com/trimstray/test-your-sysadmin-skills)
-- [ ] [Kubernetes job interview questions](https://enterprisersproject.com/article/2019/2/kubernetes-job-interview-questions-how-prepare)
-- [ ] [DevOps Guide](https://github.com/Tikam02/DevOps-Guide)
-- [ ] [Questions I ask in SRE interviews](https://dev.to/logan/questions-i-ask-in-sre-interviews-a9j)
-- [ ] [DevOps Roadmap: Learn to become a DevOps Engineer or SRE](https://roadmap.sh/devops)
-- [ ] [The Must-Know Terraform Interview Questions](https://devopsknowledge.hashnode.dev/the-must-know-terraform-interview-questions)
+- [ ] [SRE 面试问题集](https://github.com/michael-kehoe/sre-interview)
+- [ ] [SRE 面试问题](https://syedali.net/engineer-interview-questions)
+- [ ] [系统管理员 Test Questions](https://github.com/trimstray/test-your-sysadmin-skills)
+- [ ] [Kubernetes job 面试问题](https://enterprisersproject.com/article/2019/2/kubernetes-job-interview-questions-how-prepare)
+- [ ] [DevOps 指南](https://github.com/Tikam02/DevOps-Guide)
+- [ ] [我在SRE面试中问的问题](https://dev.to/logan/questions-i-ask-in-sre-interviews-a9j)
+- [ ] [DevOps 路线图: 如何成为 DevOps 工程师 或 SRE](https://roadmap.sh/devops)
+- [ ] [The Must-Know Terraform 面试问题](https://devopsknowledge.hashnode.dev/the-must-know-terraform-interview-questions)
 
 ### Blogposts
 
@@ -243,9 +243,9 @@ Contributions are always welcome!
 - [ ] [Become A DevOps Engineer in 2023: [Detailed Guide]](https://devopscube.com/become-devops-engineer)
 - [ ] [How to Get an SRE Role](https://certomodo.substack.com/p/how-to-get-an-sre-role)
 
-## Books
+## 书籍
 
-### SRE books
+### SRE书籍
 
 - [ ] [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents)
 - [ ] [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents)
@@ -259,17 +259,16 @@ Contributions are always welcome!
 - [ ] [UNIX and Linux System Administration Handbook (5th Edition)](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554)
 - [ ] [Linux Pocket Guide, 3rd Edition](http://shop.oreilly.com/product/0636920040927.do)
 
-### Networking
+### 网络
 
 - [ ] [TCP/IP Illustrated, Volume 1](https://www.amazon.com/TCP-Illustrated-Protocols-Addison-Wesley-Professional/dp/0321336313)
 
-### Troubleshooting and Performance
+### 故障定位和性能
 
 - [ ] [Systems Performance: Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098)
 - [ ] [Systems Performance, 2nd Edition](https://www.informit.com/store/systems-performance-9780136820154?ranMID=24808)
 
-## Courses
+## 课程
 
 - [ ] [Site Reliability Engineering: Measuring and Managing Reliability](https://www.coursera.org/learn/site-reliability-engineering-slos)
 - [ ] [School of SRE](https://linkedin.github.io/school-of-sre)
-
